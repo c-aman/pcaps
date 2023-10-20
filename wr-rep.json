@@ -1,0 +1,23 @@
+{
+    "messageIdentifier": "4380",
+    "serialNumber": 32752,
+    "warningArealist": {
+        "taiList": [
+            {
+            "plmnId": {
+            "mcc": "405", 
+            "mnc": "862"
+            },
+            "tac": "1"
+            }
+        ]
+    },
+    "repetitionPeriod": 0,
+    "noOfBroadcast": 1,
+    "etwsprimary": "false",
+    "warningType": "Test",
+    "languageCode": "en-IN",
+    "messageContent": "This is a test alert, Kindly ignore.",
+    "concurrentIndicator": "false",
+    "procedureCode": "write"
+}

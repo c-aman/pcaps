@@ -1,0 +1,57 @@
+{
+    "cbcf_nf_id" : "0ab6167c-ffcd-41ec-a11e-7954f71c155f",
+    "scpC" : "http://[2405:200:1410:1412::18:405]:7070",
+    "scpP" : "http://[2405:200:1410:1412::18:409]:9451",
+    "sys_ipv6" : "2405:201:fffb:122:10:63:90:230",
+    "sys_interface" : "bond0.11",
+    "hb_time" : 15,
+    "amfip" : "2405:0200:1410:1412:0000:0000:0018:72",
+    "amf_inst_id" : "edc37df9-15e5-493b-96f8-18d70be0165f",
+    "amfport" : "10107",
+    "callback" : "http://[2405:201:fffb:122:10:63:90:230]:6583",
+    "target_amf_plmn" : [
+        {
+            "mcc": "405",
+            "mnc": "856"
+        }
+    ],
+    "cbcf_plmn" : [
+        {
+            "mcc": "405",
+            "mnc": "862"
+        }
+    ],
+    "patch_data_HB" : [
+        {
+            "op": "replace",
+            "path": "/nfStatus",
+            "value": "REGISTERED"
+        }
+    ],
+    "n2Data" : {
+        "taiList": [
+            {
+              "plmnId": {
+                "mcc": "405",
+                "mnc": "856"
+              },
+              "tac": "000003"
+            }
+        ],
+        "ratSelector": "NR",
+        "n2Information": {
+            "n2InformationClass": "PWS",
+            "pwsInfo": {
+               "serialNumber": 128,
+               "messageIdentifier": 4378,
+               "pwsContainer": {
+                  "ngapData": {
+                     "contentId": "pwsN2InformationContent"
+                  }
+               },
+               "sendRanResponse": false
+            }
+        }
+    },
+    "ngapData" : "00330081D500000700230002111A005F00020080005700020000002F00020001007A400A400000000485650000030014400101007B4081A2019F0554747A0E4ACF4161D034D884328B206A714A4D3A8FA066713A0D1E8BA079D94D07D1D1F277FD8C060DCB6C3648287F87C9E3F09C9E769F41D3FC9C5E6E83C47910B10C0FCBE9EDB29B0E7A9B41D432BB3C0652EF76BBEE4E8FC3F4F4DBCD021DDFF6B2DCDD2EBBE9A0B719947493D3611708CA2E87E76550FAEC7ECBCB203A3A3D07B5CBF379F85C0685E720F71B141ED3D36F37283D07C9CBF17A5A5E2683CCF2771B940752EFBA1C5476935D202A3A3D07B5CBF379F85C06A1C37390B85C7683E665371D447F83E8E5391D040DBB5B4937391D0615DB65F9B9EC1EE7414176594E074DF3737AB90D1297D3EE3328DD86B3CBEDB29B5E06526490380F7286E9E9B73BCC0611D3F3F09C5E96839A6177F85C6E97DD7450B04E47BFE5697ADE054AD241E1747B0EA2BF4165373AEC1E9741F0BA989D1E83E66173999E0785DD64105CFEB6A7C965103DDD065265761E146697E5F439885C97A7DD6750B95D969FCBEE71BA3C7781A8E976794E0FB7E18D46A3D168341A8D46A3D168341A8D46A3D168341A8D46A3D168341A8D46A3D168341A8D46A3D168341A8D46A3D10023"
+}

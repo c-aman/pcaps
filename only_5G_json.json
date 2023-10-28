@@ -1,0 +1,109 @@
+{
+    "messageIdentifier": "4380",
+    "noOfBroadcast": "1",
+    "repetitionPeriod": "0",
+    "languageCode": "en-IN",
+    "messageContent": "This is a test alert, Kindly ignore.",
+    "cbProcedure": "1",
+    "referenceID": "100",
+    "alertID": "1#Actual",
+    "etws_primary": "false",
+    "category": "High",
+    "warningType": "Test",
+    "bscData": "",
+    "rncData": "",
+    "mmeData": {
+       "mme_pool_details": [
+          {
+             "mme_pool_id": "DL",
+             "mme_ip_list": [
+                {
+                   "id": "def56",
+                   "port": 29168,
+                   "ip": "127.0.5.56"
+                }
+             ],
+             "tracking_area_list": [
+                {
+                   "mcc": "405",
+                   "mnc": "102",
+                   "tac": 7433
+                }
+             ],
+             "warning_area_list": {
+                "cell_id_list": [
+                   {
+                      "mcc": "405",
+                      "mnc": "102",
+                      "cellid": 3431
+                   }
+                ],
+                "emergency_area_id_list": [
+                   {
+                      "id": 96634
+                   }
+                ]
+             },
+             "global_eNB_data": {
+                "mcc": "405",
+                "mnc": "102",
+                "id": 68520
+             }
+          }
+       ],
+       "req_details": {
+          "wai_id": "0",
+          "GeNB_id": "3",
+          "GgNB_id": "2",
+          "ext_rep_period": "50645",
+          "OMC_id": "4645",
+          "OMC_id_5g": "4645",
+          "tracking_area_list_sel": "true",
+          "OMC_id_sel": "false",
+          "Concurrent_ind": "true",
+          "send_wr_ind": "true",
+          "send_stop_ind": "true",
+          "ran_test_flag": "false",
+          "stop_all_ind": "true"
+       }
+    },
+    "amfData": {
+       "amf_pool_details": [
+          {
+             "amf_pool_id": "lab",
+             "amf_ip_list": [
+                {
+                   "id": "abc12",
+                   "ip": "127.0.0.1"
+                }
+             ],
+             "tracking_area_list": [
+                {
+                   "mcc": "405",
+                   "mnc": "856",
+                   "tac": 000003
+                }
+             ],
+             "warning_area_list": {
+                "cell_id_list": [
+                   {
+                      "mcc": "405",
+                      "mnc": "856",
+                      "cellid": 258
+                   }
+                ],
+                "emergency_area_id_list": [
+                  {
+                      "id": 40587
+                  }
+                ]
+             },
+             "global_gNB_data": {
+                "mcc": "405",
+                "mnc": "856",
+                "id": 68520
+             }
+          }
+       ]
+    }
+  }
